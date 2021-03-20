@@ -115,7 +115,7 @@ def stock_processor(id, price, title, remaining, totalPackCount, preorder, start
                 INSTOCK.remove(item)
 
 def discord_webhook(product_item):
-    hook = Webhook(url="https://discord.com/api/webhooks/789656728189927424/5PXKFTs0zOcTB7ZwGrMjp0r-MrtD8Hr06UkeYbgVufJN68gIzsLb5J0uSf5v0pwAOB1l")
+    hook = Webhook(url="")
     """
     Sends a Discord webhook notification to the specified webhook URL
     :param product_item: An array of the product's details
