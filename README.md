@@ -35,7 +35,10 @@ This monitor is currently extended with the following packages.
 ```sh
 $ python3 main.py
 ```
+#### Pandas
 ![image](https://user-images.githubusercontent.com/26026416/111853095-6660c780-8911-11eb-94dd-4ce2ae03ed16.png)
+#### Discord
+![image](https://user-images.githubusercontent.com/26026416/111873568-c34b9480-8988-11eb-8a71-f39a5a1f548a.png)
 
 License
 ----
