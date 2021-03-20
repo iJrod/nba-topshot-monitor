@@ -85,7 +85,7 @@ def request_pack_stock(proxy, headers):
 
 def stock_processor(id, price, title, remaining, totalPackCount, preorder, start, proxy, headers):
     """
-    Scrapes each item on the webstore and checks whether the product is in-stock or not. If in-stock
+    Scrapes each pack on the store and checks whether the product is in-stock or not. If in-stock
     it will send a Discord notification
     """
 
@@ -168,7 +168,7 @@ def monitor():
     proxy_no = 0
 
     proxy_list = "".split('%')
-    #proxy = {"http": f"http://{proxyObject.get()}"} if proxy_list[0] == "" else {"http": f"http://{proxy_list[proxy_no]}"}
+    proxy = {"http": f"http://{proxyObject.get()}"} if proxy_list[0] == "" else {"http": f"http://{proxy_list[proxy_no]}"}
     headers = {'User-Agent': user_agent_rotator.get_random_user_agent()}
     keywords = "".split('%')
     while True:
@@ -207,5 +207,5 @@ if __name__ == '__main__':
     software_names = [SoftwareName.CHROME.value]
     hardware_type = [HardwareType.MOBILE__PHONE]
     user_agent_rotator = UserAgent(software_names=software_names, hardware_type=hardware_type)  
-    #proxyObject = FreeProxy(country_id='GB', rand=True)
+    proxyObject = FreeProxy(country_id='GB', rand=True)
     monitor()
