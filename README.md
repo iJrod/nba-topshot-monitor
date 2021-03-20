@@ -23,7 +23,7 @@ $ python3 main.py
 
 ### Packages
 
-This monitors is currently extended with the following packages.
+This monitor is currently extended with the following packages.
 
 | Package | README |
 | ------ | ------ |
