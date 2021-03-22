@@ -10,6 +10,9 @@
   - Slack embed
   - ...and more
 
+Feature | Status
+--------|--------
+Real-time Monitoring | ![NBA Top Shot](https://img.shields.io/badge/NBA_Top_Shot-Testing-yellow)
 
 ### Installation
 
